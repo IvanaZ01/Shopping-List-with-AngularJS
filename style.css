@@ -8,7 +8,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-image: url('https://img.freepik.com/free-vector/creative-abstract-texture-background-vector-illustration_1284-41950.jpg?size=626&ext=jpg&ga=GA1.2.1207464890.1610236800');
+    background-image: url('https://media.istockphoto.com/vectors/wooden-texture-light-pink-colors-pastel-background-vector-vector-id1148013263?k=6&m=1148013263&s=170667a&w=0&h=0oZ-Bc3n5FERsr5L2chOgOFfYO0FDB3LlmOgwgw117E=');
     background-attachment: fixed;
 }
 
@@ -65,7 +65,7 @@ body:after {
 
 .addBtn {
     padding: .78em;
-    background-color: rgb(30, 153, 30);
+    background-color: rgb(236, 79, 106);
     color: white;
     border: none;
     font-size: 1rem;
@@ -73,7 +73,7 @@ body:after {
 }
 
 .addBtn:hover{
-    background-color: rgb(13, 133, 13);
+    background-color: rgb(223, 31, 63);
 }
 
 .eks {
