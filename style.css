@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-vector/creative-abstract-texture-background-vector-illustration_1284-41950.jpg?size=626&ext=jpg&ga=GA1.2.1207464890.1610236800');
+    background-attachment: fixed;
+}
+
+body:after {
+    content: "";
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0; 
+    background: rgba(75, 75, 75, 0.411);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+.list-div {
+	border: 1px solid #aaa;
+	width: 450px;
+	margin: 10px auto;
+}
+
+.heading {
+	text-align: center;
+	background-color: #eee;
+	padding: 1.5em 0 0 0;
+}
+
+.list {
+	list-style: none;
+}
+
+.list-item {
+	width: 100%;
+	border: 1px solid #eee;
+	padding: 1em 2em;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.adding {
+	padding: 1.5em 0em;
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-add {
+	padding:  .49em;
+	width: 320px;
+    border: 1px solid #aaa;
+    font-size: 1.2rem;
+}
+
+.addBtn {
+    padding: .78em;
+    background-color: rgb(30, 153, 30);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.addBtn:hover{
+    background-color: rgb(13, 133, 13);
+}
+
+.eks {
+    background-color: transparent;
+    border: none;
+    padding: .5em 0em 0.5em 1em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
